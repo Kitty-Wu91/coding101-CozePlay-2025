@@ -51,7 +51,7 @@
 6. **將整理後的資料以行的方式寫入Google Sheets**   
    - 最後可以Google Sheet中查看成果
   
-# Google Sheet(資料庫)資料格式
+# Google Sheet（資料庫）資料格式
 
 爬蟲成功抓取各校公開課資訊後，會將結果以行的方式寫入Google Sheets，如下圖所示：
 
