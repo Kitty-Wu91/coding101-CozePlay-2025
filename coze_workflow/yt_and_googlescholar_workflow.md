@@ -47,7 +47,8 @@
 - **確保結果格式一致，包括標題、來源、連結等**  
 - **適用於AI Agent的結構化回應格式**  
 
-📌 **確保用戶獲得清晰、易讀的搜尋結果，提高體驗。**  
+📌 **確保用戶獲得清晰、易讀的搜尋結果，提高體驗。**
+
 ---
 
 ## 3. 工作流程運作流程
@@ -64,16 +65,18 @@
   - **其他：Google 預設搜尋**
 
 📌 **工作流示意圖：**
+
 ![選擇搜尋類型](images/yt_and_googlescholar_1.png)
 
 ---
 
 ### 2️⃣ **YouTube 搜尋**
 - **用戶輸入關鍵字**
-- **透過 `search_video` 外掛**，查詢 YouTube 影片
+- **透過 `search_video` Plugin**，查詢 YouTube 影片
 - **輸出搜尋結果**
 
 📌 **工作流示意圖：**
+
 ![YouTube 搜尋](images/yt_and_googlescholar_2.png)
 
 ---
@@ -81,10 +84,11 @@
 ### 3️⃣ **Google Scholar 搜尋**
 - **用戶輸入關鍵字**
 - **可選擇性地輸入論文年份範圍**
-- **透過 `searchGoogleScholar` 外掛**，查詢 Google Scholar 論文
+- **透過 `searchGoogleScholar` Plugin**，查詢 Google Scholar 論文
 - **輸出搜尋結果**
 
 📌 **工作流示意圖：**
+
 ![Google Scholar 搜尋](images/yt_and_googlescholar_3.png)
 
 ---
@@ -92,10 +96,11 @@
 ### 4️⃣ **Google 搜尋**
 - **用戶輸入關鍵字**
 - **可選擇性地輸入最大回傳結果數**
-- **透過 `googleWebSearch` 外掛**，執行 Google 搜尋
+- **透過 `googleWebSearch` Plugin**，執行 Google 搜尋
 - **輸出搜尋結果**
 
 📌 **工作流示意圖：**
+
 ![Google 搜尋](images/yt_and_googlescholar_4.png)
 
 ---
@@ -106,6 +111,7 @@
 - **工作流結束**
 
 📌 **工作流示意圖：**
+
 ![搜尋結果輸出](images/yt_and_googlescholar_5.png)
 
 ---
