@@ -58,7 +58,7 @@
 爬蟲成功抓取各校公開課資訊後，會將結果以行的方式寫入Google Sheets，如下圖所示：
 
 ![Google Sheet 截圖](images/google_sheet_example.png)
-(以微積分為例)
+（以微積分為例）
 
 > 在這個試算表中，我們主要的欄位包含：
 > - **課程名稱**：該公開課程的標題
