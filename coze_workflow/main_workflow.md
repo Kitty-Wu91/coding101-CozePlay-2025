@@ -2,10 +2,10 @@
 
 ---
 
-## 1. 主程式概述
+## 1. 功能概述
 本專案透過 **Coze AI Agent開發平台**，建構一個 **基於檢索增強生成 (Retrieval-Augmented Generation, RAG)** 的課程查詢機器人。
 
-### **📌 工作流的主要目標**
+### **📌 主要目標**
 - **輸入解析**：使用 LLM 將用戶輸入翻譯為繁體中文，以利後續查詢
 - **資料檢索**：透過 `Knowledge Retrieval` 插件，對課程摘要進行 **模糊搜尋 (Semantic Search)**，選取相關課程
 - **LLM 組織輸出**：由 **大語言模型 (Large Language Model, LLM)** 生成 **概念解釋** 並整理推薦課程
