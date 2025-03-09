@@ -233,18 +233,18 @@
 
 | **步驟** | **名稱** | **Input** | **Output** |
 |----------|---------|----------|-----------|
-| 1️⃣ | **LLM 翻譯** | `user_input` | `translated_text` |
-| 2️⃣ | **Knowledge Retrieval 模糊搜尋** | `translated_text` | `candidate_courses` |
-| 3️⃣ | **LLM 生成課程推薦** | `candidate_courses`, `translated_text` | `output` (包含課程清單 & 概念解釋) |
-| 4️⃣ | **Text Processing 文字處理** | `output` | `formatted_output1` |
-| 5️⃣ | **Output 查詢結果輸出** | `formatted_output1` | `output1` |
-| 6️⃣ | **詢問用戶是否查詢其他課程** |-| `new_query` (若用戶選擇「是」) |
-| 7️⃣ | **詢問用戶「您要查詢的內容是？」** | `new_query` | `user_input` |
-| 8️⃣ | **重新啟動查詢流程** | `user_input` | `workflow_output` |
-| 9️⃣ | **第二次查詢結果處理** | `workflow_output` | `formatted_output_2` |
-| 🔟 | **第二次查詢結果輸出** | `formatted_output_2` | `output2` |
-| 1️⃣1️⃣ | **結束查詢** | - | `"感謝您的查詢！"` |
-| 1️⃣2️⃣ | **記錄查詢數據** | `user_query`, `user_query2`, `query_result`, `query_result2` | `outputList` |
+| 1 | **LLM 翻譯** | `user_input` | `translated_text` |
+| 2 | **Knowledge Retrieval 模糊搜尋** | `translated_text` | `candidate_courses` |
+| 3 | **LLM 生成課程推薦** | `candidate_courses`, `translated_text` | `output` (包含課程清單 & 概念解釋) |
+| 4 | **Text Processing 文字處理** | `output` | `formatted_output1` |
+| 5 | **Output 查詢結果輸出** | `formatted_output1` | `output1` |
+| 6 | **詢問用戶是否查詢其他課程** |-| `new_query` (若用戶選擇「是」) |
+| 7 | **詢問用戶「您要查詢的內容是？」** | `new_query` | `user_input` |
+| 8 | **重新啟動查詢流程** | `user_input` | `workflow_output` |
+| 9 | **第二次查詢結果處理** | `workflow_output` | `formatted_output_2` |
+| 10 | **第二次查詢結果輸出** | `formatted_output_2` | `output2` |
+| 11 | **結束查詢** | - | `"感謝您的查詢！"` |
+| 12 | **記錄查詢數據** | `user_query`, `user_query2`, `query_result`, `query_result2` | `outputList` |
 
 
 
