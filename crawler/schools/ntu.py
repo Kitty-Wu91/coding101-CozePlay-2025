@@ -9,7 +9,7 @@ credentials = Credentials.from_service_account_file(
     scopes=["https://www.googleapis.com/auth/spreadsheets"]
 )
 gc = gspread.authorize(credentials) 
-spreadsheet_url = "https://docs.google.com/spreadsheets/d/1Xk9XOAdbgLbH7PZgUSo0EwHjE62KAGXePRh08CqECls/edit?gid=0#gid=0"
+spreadsheet_url = "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET"
 
 worksheet_name = "微積分"
 worksheet = gc.open_by_url(spreadsheet_url).worksheet(worksheet_name)
