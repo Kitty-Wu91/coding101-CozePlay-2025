@@ -11,7 +11,7 @@
 - **擴寫 (Expansion)**：根據 **用戶輸入**，讓 **LLM 進行補充與擴展**
 
 📌 **工作流總覽圖**：
-![輔助功能總覽](images/summarize_or_expand_workflow/main.png)
+![輔助功能總覽](images/summarize_or_expand_workflow.png)
 
 ---
 
@@ -20,11 +20,6 @@
 ### **1️⃣ 大語言模型 (Large Language Model, LLM)**
    - **負責摘要**：將 **網頁內容** 壓縮為精簡摘要
    - **負責擴寫**：根據 **用戶輸入** 進行詳細擴展
-
-### **2️⃣ 網頁內容處理**
-   - **擷取網頁內容**：使用 `requests` 抓取 **HTML 網頁資訊**
-   - **過濾 HTML 標籤**，確保輸出為 **純文字內容**
-   - **檢查歷史記錄**，避免重複處理相同文章
 
 ---
 
@@ -40,7 +35,7 @@
   - **「擴寫」**
 
 📌 **工作流示意圖：**  
-![用戶選擇功能](images/summarize_or_expand_workflow/step1.png)
+![用戶選擇功能](images/summarize_or_expand_workflow_1.png)
 
 ---
 
