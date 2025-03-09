@@ -46,7 +46,7 @@
 - 系統 **檢查網址格式是否正確**
 
 📌 **工作流示意圖：**  
-![用戶輸入網址](images/summarize_or_expand_workflow/step2.png)
+![用戶輸入網址](images/summarize_or_expand_workflow_2.png)
 
 ---
 
@@ -54,7 +54,7 @@
 - **轉換網址格式**，確保可用於查詢
 
 📌 **工作流示意圖：**  
-![網址編碼](images/summarize_or_expand_workflow/step3.png)
+![網址編碼](images/summarize_or_expand_workflow_3.png)
 
 ---
 
@@ -63,7 +63,7 @@
 - **若無資料**，則繼續擷取網頁內容
 
 📌 **工作流示意圖：**  
-![確認歷史摘要](images/summarize_or_expand_workflow/step4.png)
+![確認歷史摘要](images/summarize_or_expand_workflow_4.png)
 
 ---
 
@@ -72,7 +72,7 @@
 - **解析出純文字內容**
 
 📌 **工作流示意圖：**  
-![擷取網頁內容](images/summarize_or_expand_workflow.png)
+![擷取網頁內容](images/summarize_or_expand_workflow_5.png)
 
 ---
 
@@ -81,7 +81,7 @@
 - **確保摘要內容完整且精簡**
 
 📌 **工作流示意圖：**  
-![LLM 生成摘要](images/summarize_or_expand_workflow/step6.png)
+![LLM 生成摘要](images/summarize_or_expand_workflow_6.png)
 
 ---
 
@@ -90,7 +90,7 @@
 - **輸出摘要給用戶**
 
 📌 **工作流示意圖：**  
-![儲存並輸出摘要](images/summarize_or_expand_workflow/step7.png)
+![儲存並輸出摘要](images/summarize_or_expand_workflow_7.png)
 
 ---
 
@@ -101,7 +101,7 @@
 - 系統 **檢查輸入長度**，確保適合作為擴寫目標
 
 📌 **工作流示意圖：**  
-![用戶輸入擴寫內容](images/summarize_or_expand_workflow/step8.png)
+![用戶輸入擴寫內容](images/summarize_or_expand_workflow_8.png)
 
 ---
 
@@ -110,7 +110,7 @@
 - 生成 **更完整的內容**
 
 📌 **工作流示意圖：**  
-![LLM 擴寫內容](images/summarize_or_expand_workflow/step9.png)
+![LLM 擴寫內容](images/summarize_or_expand_workflow_9.png)
 
 ---
 
@@ -118,16 +118,8 @@
 - **將擴寫內容顯示給用戶**
 
 📌 **工作流示意圖：**  
-![輸出擴寫結果](images/summarize_or_expand_workflow/step10.png)
+![輸出擴寫結果](images/summarize_or_expand_workflow_10.png)
 
----
-
-### 1️⃣1️⃣ **結束工作流**
-- 確保最終輸出為 **標準回應格式**
-- **返回「感謝您的查詢！」**，確認查詢流程圓滿結束
-
-📌 **工作流示意圖：**  
-![結束工作流](images/summarize_or_expand_workflow/step11.png)
 
 ---
 
