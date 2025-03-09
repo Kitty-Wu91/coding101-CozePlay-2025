@@ -35,7 +35,7 @@
   - **「擴寫」**
 
 📌 **工作流示意圖：**  
-![用戶選擇功能](images/summarize_or_expand_workflow_1.png)
+![用戶選擇功能](images/summarize_or_expand_1.png)
 
 ---
 
@@ -46,7 +46,7 @@
 - 系統 **檢查網址格式是否正確**
 
 📌 **工作流示意圖：**  
-![用戶輸入網址](images/summarize_or_expand_workflow_2.png)
+![用戶輸入網址](images/summarize_or_expand_2.png)
 
 ---
 
@@ -54,7 +54,7 @@
 - **轉換網址格式**，確保可用於查詢
 
 📌 **工作流示意圖：**  
-![網址編碼](images/summarize_or_expand_workflow_3.png)
+![網址編碼](images/summarize_or_expand_3.png)
 
 ---
 
@@ -63,7 +63,7 @@
 - **若無資料**，則繼續擷取網頁內容
 
 📌 **工作流示意圖：**  
-![確認歷史摘要](images/summarize_or_expand_workflow_4.png)
+![確認歷史摘要](images/summarize_or_expand_4.png)
 
 ---
 
@@ -72,7 +72,7 @@
 - **解析出純文字內容**
 
 📌 **工作流示意圖：**  
-![擷取網頁內容](images/summarize_or_expand_workflow_5.png)
+![擷取網頁內容](images/summarize_or_expand_5.png)
 
 ---
 
@@ -81,7 +81,7 @@
 - **確保摘要內容完整且精簡**
 
 📌 **工作流示意圖：**  
-![LLM 生成摘要](images/summarize_or_expand_workflow_6.png)
+![LLM 生成摘要](images/summarize_or_expand_6.png)
 
 ---
 
@@ -90,7 +90,7 @@
 - **輸出摘要給用戶**
 
 📌 **工作流示意圖：**  
-![儲存並輸出摘要](images/summarize_or_expand_workflow_7.png)
+![儲存並輸出摘要](images/summarize_or_expand_7.png)
 
 ---
 
@@ -101,45 +101,16 @@
 - 系統 **檢查輸入長度**，確保適合作為擴寫目標
 
 📌 **工作流示意圖：**  
-![用戶輸入擴寫內容](images/summarize_or_expand_workflow_8.png)
+![用戶輸入擴寫內容](images/summarize_or_expand_8.png)
 
 ---
 
 ### 9️⃣ **LLM 進行擴寫**
 - **使用 LLM (`GPT-4o mini`)**，根據用戶輸入 **補充額外資訊**
 - 生成 **更完整的內容**
-
-📌 **工作流示意圖：**  
-![LLM 擴寫內容](images/summarize_or_expand_workflow_9.png)
-
----
-
-### 🔟 **輸出擴寫結果**
 - **將擴寫內容顯示給用戶**
 
 📌 **工作流示意圖：**  
-![輸出擴寫結果](images/summarize_or_expand_workflow_10.png)
+![LLM 擴寫內容](images/summarize_or_expand_9.png)
 
-
----
-
-## 4. Input / Output 格式對照表
-
-| 步驟 | Input | Output |
-|------|----------------|----------------|
-| 1️⃣ | 用戶選擇功能 (`摘要 / 擴寫`) | 進入對應的處理流程 |
-| 2️⃣ | 用戶輸入網址 | 確認網址格式 |
-| 3️⃣ | 網址 | 進行編碼 |
-| 4️⃣ | 網址 | 若有歷史摘要則直接輸出 |
-| 5️⃣ | 網址 | 擷取網頁內容 |
-| 6️⃣ | 網頁內容 | LLM 生成摘要 |
-| 7️⃣ | 摘要內容 | 存入資料庫並輸出 |
-| 8️⃣ | 用戶輸入文字 | 進入擴寫流程 |
-| 9️⃣ | 用戶輸入文字 | LLM 擴寫內容 |
-| 🔟 | 擴寫內容 | 顯示擴寫結果 |
-| 1️⃣1️⃣ | N/A | 結束工作流 |
-
----
-
-🚀 **現在你可以直接將這份 `summarize_or_expand_workflow.md` 上傳至 GitHub！**
 
